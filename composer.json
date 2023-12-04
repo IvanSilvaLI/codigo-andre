@@ -1,0 +1,17 @@
+{
+    "name": "startbootstrap/sb-admin-2",
+    "description": "ong que faz o bem sem olhar a quem",
+    "type": "project",
+    "require": {
+        "google/apiclient": "^2.8",
+        "google/apiclient-services": "^0.180",
+        "google/auth": "^1.18"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Startbootstrap\\SbAdmin2\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
